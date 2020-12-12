@@ -1,0 +1,101 @@
+html,body{
+    height: 100%;
+}
+
+body{
+   text-rendering: optimizeLegibility;
+   color: #6c6f73;
+}
+
+h1,h2,h3,h4,h5{
+    color:#333
+}
+
+h6{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.6rem;
+    letter-spacing: 0.1rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+.blockquote{
+    font-size: 1.6rem;
+    color: #333;
+    border: none;
+    padding: 0;
+}
+
+.blockquote-footer{
+    margin: 1rem 0 0;
+}
+
+#stage{
+    background: url('img/stage.jpg') center center no-repeat;
+    background-size: cover;
+    color:white;
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+#stage-caption{
+    font-weight: 200;
+    font-size: 1.4rem;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#stage-caption h1 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.container{
+    padding-top: 2rem;
+    overflow: hidden;
+}
+
+.feature-dark{
+    background: #262f36;
+    color: white;
+}
+
+.feature-dark h2{
+    color: white;
+}
+
+.feature-alt{
+    background: #f0f0f0;
+}
+
+#feature-four .container{
+    padding: 0rem;
+}
+
+#feature-five img{
+    padding: 2rem;
+}
+
+#main-footer{
+    background: #262F36;
+    color: white;
+    font-size: 0.8rem;
+}
+
+/* Media Screen Query */
+@media screen and ( min-width:991px ){
+    .pt{
+        
+        padding-top: 5rem;
+    }
+    
+}
+
